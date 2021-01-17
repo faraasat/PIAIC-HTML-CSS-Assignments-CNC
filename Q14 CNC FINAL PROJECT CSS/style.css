@@ -1,0 +1,380 @@
+.nav-1-top {
+  min-height: 45px;
+}
+
+.nav-1-icons a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(66, 66, 66) !important;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+}
+
+.nav-1-icons li:not(:first-child) {
+  margin-left: 18px;
+}
+
+.nav-1-icons a {
+  text-align: center;
+}
+
+.nav-1-typo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: greenyellow;
+  height: 100%;
+}
+
+.nav-1-icons a:hover {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.nav-1-icon__facebook:hover i {
+  color: rgb(0, 140, 255);
+}
+
+.nav-1-icon__linkedin:hover i {
+  color: blue;
+}
+
+.nav-1-icon__instagram:hover i {
+  color: rgb(255, 0, 255);
+}
+
+.nav-1-icon__github:hover i {
+  color: rgb(8, 8, 8);
+}
+
+.nav-1-icon__telegram:hover i {
+  color: rgb(8, 204, 253);
+}
+
+.nav-1-icon__whatsapp:hover i {
+  color: rgb(8, 253, 90);
+}
+
+.nav-1-icon__twitter:hover i {
+  color: rgb(8, 106, 253);
+}
+
+.nav-1-typo {
+  cursor: pointer;
+}
+
+.nav-1-typo p {
+  margin-block: 0;
+  margin-right: 15px;
+  color: white !important;
+}
+
+.nav-1-typo i {
+  color: greenyellow;
+  margin-right: 5px;
+}
+
+.nav-1-typo:hover i {
+  animation: jeg 0.5s ease-in-out;
+}
+
+@keyframes jeg {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  90% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.nav-1-typo button {
+  background-color: greenyellow;
+  outline: none;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 5px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.navbar-black #navbarSupportedContent2 * {
+  color: black !important;
+}
+
+.nav-2-nomargin {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.nav-2-alignment {
+  justify-content: start;
+}
+
+.nav-2-alignment #navbarSupportedContent2 {
+  width: auto !important;
+}
+
+.nav-2-alignment #navbarSupportedContent2:first-child {
+  left: 0;
+}
+
+.nav-2-alignment #navbarSupportedContent2 ul a {
+  height: 65px;
+  transform: translateY(25%);
+  /* font-weight: bold; */
+}
+
+.nav-2-alignment #navbarSupportedContent2 ul li {
+  margin-right: 10px;
+  /* border-bottom: 10px solid rgb(255, 217, 0); */
+}
+
+.nav-2-collapse-btn {
+  border: 3.5px solid black;
+  outline: none;
+}
+
+#navbarSupportedContent2 {
+  right: 0;
+}
+
+.carousel-alignment img {
+  max-height: 700px;
+  margin: 0;
+}
+
+.carousel-alignment .carousel-caption {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.425);
+  height: 700px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 15%;
+}
+
+.carousel-alignment .carousel-caption p {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.carousel-alignment .carousel-caption h5 {
+  font-size: 5vw;
+}
+
+.carousel-alignment .carousel-caption p {
+  margin-top: 18px;
+  margin-bottom: 30px;
+  font-size: 1.25vw;
+}
+
+.carousel-alignment .carousel-caption button {
+  background-color: rgb(255, 187, 0);
+  border-bottom: 3px solid rgb(255, 115, 0);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+#carousel-pana {
+  background-color: black;
+}
+
+.advantages-header {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.advantages-header h1 {
+  color: rgb(0, 0, 0);
+}
+
+.advantages-header h1 span {
+  color: rgb(63, 172, 36);
+}
+
+.advantages-header p {
+  width: 70%;
+  text-align: center;
+  color: rgb(185, 183, 183);
+}
+
+.advantages-content {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.advantages-content__group {
+  width: 215px;
+}
+
+.advantages-content__group .advantages-content__group-icon i {
+  color: yellowgreen;
+  background-color: rgb(236, 236, 236);
+  font-size: 80px;
+  border-radius: 50%;
+  width: 170px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.advantages-content__group .advantages-content__group-main {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.advantages-content__group .advantages-content__group-sub {
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgb(165, 165, 165);
+}
+
+.about {
+  padding-bottom: 55px;
+  margin-top: 55px;
+  background-image: url("./gray-back.jpg"),
+    linear-gradient(to right, #0083f5, #0088ff);
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.about-header h1 {
+  color: rgb(0, 0, 0);
+}
+
+.about-header h1 span {
+  color: rgb(63, 172, 36);
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content div {
+  margin-right: 7vw;
+}
+
+.about-content img {
+  width: 40vw;
+}
+
+.about-content button {
+  margin-top: 15px;
+  background-color: rgb(255, 187, 0);
+  border-bottom: 3px solid rgb(255, 115, 0);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 10px 45px;
+  border-radius: 5px;
+}
+
+.services-header {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services-header h1 {
+  color: rgb(0, 0, 0);
+}
+
+.services-header h1 span {
+  color: rgb(63, 172, 36);
+}
+
+.services-header p {
+  width: 70%;
+  text-align: center;
+  color: rgb(185, 183, 183);
+}
+
+.services-content {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.services-content__group {
+  width: 300px;
+  padding: 20px 50px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.services-content__group .services-content__group-icon {
+  position: relative;
+  transform: translate(-28%, -60px);
+}
+
+.services-content__group .services-content__group-icon i {
+  position: absolute;
+  color: rgb(218, 0, 0);
+  background-color: rgb(238, 160, 14);
+  font-size: 50px;
+  border-radius: 50%;
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.services-content__group .services-content__group-main {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.services-content__group .services-content__group-sub {
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgb(165, 165, 165);
+}
+
+.services-content__group {
+  background-color: rgb(248, 248, 248);
+}
+
+.services-content__group a {
+  color: greenyellow;
+}

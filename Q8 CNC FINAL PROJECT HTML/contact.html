@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Final Project - Contact</title>
+  </head>
+  <body style="margin: 0">
+    <div style="margin: 0px 60px">
+      <header style="margin-bottom: 10px">
+        <nav
+          style="
+            background-color: rgb(56, 133, 248);
+            padding: 10px 35px;
+            border-radius: 20px;
+          "
+        >
+          <img src="./pana.png" alt="log" />
+          <span style="font-size: large">
+            <a
+              href="./index.html"
+              style="margin-left: 110px; color: black; text-decoration: none"
+              >HOME</a
+            >
+            <a
+              href="./about.html"
+              style="margin-left: 65px; color: black; text-decoration: none"
+              >ABOUT</a
+            >
+            <a
+              href="./portfolio.html"
+              style="margin-left: 65px; color: black; text-decoration: none"
+              >PORTFOLIO</a
+            >
+            <a
+              href="./contact.html"
+              style="margin-left: 65px; color: black; text-decoration: none"
+              >CONTACT</a
+            >
+          </span>
+        </nav>
+      </header>
+      <section style="margin: 35px 0px">
+        <form method="POST">
+          <fieldset>
+            <legend>Your Details:</legend>
+            Name: <input type="text" /><br /><br />
+            Email: <input type="email" />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Your Review:</legend>
+            How did you hear about us?
+            <select>
+              <option value="google">Google</option>
+              <option value="facebook">Facebook</option>
+              <option value="instagram">Instagram</option>
+              <option value="twitter">Twitter</option></select
+            ><br /><br />
+            Would you visit again?<br />
+            <input type="radio" name="opt" value="yes" /> Yes
+            <input type="radio" name="opt" value="no" /> No
+            <input type="radio" name="opt" value="maybe" /> Maybe <br /><br />
+            Comments: <br />
+            <textarea rows="3" cols="25"></textarea><br /><br />
+            <input type="checkbox" value="update?" checked /> Sign me up for
+            email updates<br />
+            <button type="submit">Submit Review</button>
+          </fieldset>
+        </form>
+      </section>
+      <article>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57921.187731568294!2d67.03837037086491!3d24.861314107676165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x91c53ba630675f8!2sPresidential%20Initiative%20for%20Artificial%20Intelligence%20and%20Computing%20(PIAIC)%20Headquarters!5e0!3m2!1sen!2s!4v1608910736207!5m2!1sen!2s"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </article>
+      <footer
+        style="
+          background-color: rgb(56, 133, 248);
+          padding: 10px 35px;
+          border-radius: 5px;
+          text-align: center;
+          margin-top: 40px;
+        "
+      >
+        Copyright © 2019. All rights reserved
+      </footer>
+    </div>
+  </body>
+</html>
