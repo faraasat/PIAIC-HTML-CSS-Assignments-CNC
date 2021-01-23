@@ -112,6 +112,12 @@
   color: black !important;
 }
 
+.stick-nav {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+}
+
 .nav-2-nomargin {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
